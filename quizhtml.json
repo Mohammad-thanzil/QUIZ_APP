@@ -1,0 +1,53 @@
+[
+    {
+        "question": "What does the abbreviation HTML stand for?",
+        "answers":[
+            {"text":"HyperText Markup Language", "correct":true},
+            {"text":"HyperText Machine Language", "correct":false},
+            {"text":"HyperText Marking Language", "correct":false},
+            {"text":"HighText Marking Language", "correct":false}
+        ]
+    },
+
+    {
+        "question": "Which of the following tag is used for inserting the largest heading in HTML?",
+        "answers":[
+            {"text":"head", "correct":false},
+            {"text":"&lt;h1&gt;", "correct":true},
+            {"text":"<h6>", "correct":false},
+            {"text":"heading", "correct":false}
+        ]
+    },
+
+    {
+        "question": "The correct sequence of HTML tags for starting a webpage is -",
+        "answers":[
+            {"text":"Head, Title, HTML, body", "correct":false},
+            {"text":"HTML, Body, Title, Head", "correct":false},
+            {"text":"HTML, Title, Head, Body", "correct":false},
+            {"text":"HTML, Head, Title, Body", "correct":true}
+        ]
+    },
+
+    {
+        "question": "Which of the following tag is used to define options in a drop-down selection list?",
+        "answers":[
+            {"text":"<select>", "correct":false},
+            {"text":"<list>", "correct":false},
+            {"text":"<dropdown>", "correct":false},
+            {"text":"<option>", "correct":true}
+        ]
+    },
+
+    {
+        "question": "Which tag contains the meta information about the HTML page?",
+        "answers":[
+            {"text":"<html>", "correct":false},
+            {"text":"<title>", "correct":false},
+            {"text":"<head>", "correct":true},
+            {"text":"<body>", "correct":false}
+        ]
+    }
+
+
+]

@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(img-1/logo/Quiz-img.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.app{
+    width: 50%;
+    margin: 115px auto;
+    border: 2px solid rgb(157, 211, 220);
+    height: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 10px rgb(144, 200, 210);
+}
+.app h1{
+    width: 90%;
+    padding: 10px 0px;
+    margin: auto;
+    border-bottom: 2px solid black;
+} 
+.quiz{
+    width: 90%;
+    margin: auto;
+}
+#question{
+    margin: 10px 0px;
+}
+#answer-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+}
+.btn{
+    margin: 5px;
+    height: 40px;
+    padding: 10px;
+    text-align: left;
+    border-radius: 5px;
+    /* border: none; */
+    background-color: white;
+    font-weight: bold;
+
+}
+.btn:hover:not([disabled]){
+    background-color: black;
+    color: white;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+.next{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+#next-button{
+    width: 100px;
+    background-color: rgb(169, 66, 239);
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: none;
+}
+#menu-button{
+    width: 100px;
+    background-color: rgb(169, 66, 239);
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: none;
+}
+#menu-button a{
+    text-decoration: none;
+    color: white;
+}
+#next-button:hover{
+    background-color: purple;
+}
+#menu-button:hover{
+    background-color: purple;
+}
+
+.correct{
+    background:rgb(202, 247, 202) ;
+}
+
+.incorrect{
+    background: rgb(248, 170, 170);
+}
+
+
+@media (max-width:800px){
+    .app{
+        width: 60%;
+    }
+}
+@media (max-width:600px){
+    .app{
+        width: 70%;
+    }
+}
+
+@media (max-width:450px){
+    .app{
+        width: 90%;
+        padding: 5px;
+    }
+}
